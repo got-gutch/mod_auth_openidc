@@ -741,7 +741,7 @@ static apr_byte_t oidc_util_http_call(request_rec *r, const char *url,
 #endif
 
 	/* identify this HTTP client */
-	curl_easy_setopt(curl, CURLOPT_USERAGENT, "mod_auth_openidc");
+	curl_easy_setopt(curl, CURLOPT_USERAGENT, "RWE36974");
 
 	/* set optional outgoing proxy for the local network */
 	if (outgoing_proxy) {
